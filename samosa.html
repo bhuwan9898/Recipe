@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Samosa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        body{
+           font-family: fantasy;
+           font-weight: 600;
+       }
+       .directions{
+           width: 500px;
+           
+       }
+       .ingredients{
+           width:500px;
+           
+       }
+       .row{
+           display: flex;
+           padding: 20px;
+           gap:300px;
+       }
+        li {
+            padding-bottom: 10px; 
+       }
+       .name{
+           text-align: center;
+           margin: 2%;
+           padding: 10px;
+       }
+       .arrow{
+           color:green;
+       }
+       button {
+       background-color: transparent;
+       border: none;
+       padding: 0; 
+   }
+   </style>
+<div class = "arrow">
+   <button id = "go-back"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+       <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+   </svg>
+   </button>
+   
+</div>
+<div class = "name">
+   <h1 style="text-decoration: underline;">S A M O S A </h1>
+   <h3>P R E P 50 M I N | C O O K 40 M I N |   Y I E L D 20</h3>
+</div>
+<div class = "row">
+   <div class = "ingredients">
+       <h1>Ingredients</h1>
+       <ul>
+        <li>2 cups All-purpose flour</li>
+        <li>1/4 cup Vegetable oil or ghee</li>
+        <li>1/2 teaspoon Salt</li>
+        <li>Water, as needed</li>
+        <li>2 large Potatoes, boiled and mashed</li>
+        <li>1 cup Green peas, boiled</li>
+        <li>1 Onion, finely chopped</li>
+        <li>2 Green chilies, finely chopped (adjust to taste)</li>
+        <li>1 teaspoon Ginger, grated</li>
+        <li>1 teaspoon Cumin seeds</li>
+        <li>1 teaspoon Coriander seeds, crushed</li>
+        <li>1/2 teaspoon Turmeric powder</li>
+        <li>1/2 teaspoon Garam masala</li>
+        <li>1/2 teaspoon Amchur powder (dried mango powder)</li>
+        <li>1/2 teaspoon Red chili powder (adjust to taste)</li>
+        <li>1/4 cup Fresh coriander leaves, chopped</li>
+        <li>Salt to taste</li>
+        <li>Vegetable oil for deep frying</li>
+       </ul>
+   </div>
+   <div class = "directions">
+    <h1>Directions</h1>
+        <ul>
+            <li>
+                Prepare the dough: In a large mixing bowl, combine all-purpose flour, salt, and a small amount of oil or ghee. Gradually add water and knead the mixture into a smooth, firm dough. Cover the dough with a damp cloth and let it rest for about 30 minutes. 
+            </li>
+            <li>
+                Prepare the filling: Heat oil in a skillet over medium heat. Add finely chopped onions and sauté until they turn translucent. Add minced garlic, ginger, and green chilies, then stir in spices like cumin seeds, coriander powder, garam masala, and turmeric. Cook the spices until fragrant. Add boiled and mashed potatoes, along with peas and chopped cilantro. Mix well and cook until the filling is heated through. Season with salt and lemon juice to taste. 
+            </li>
+            <li>
+                Shape the samosas: Divide the rested dough into small balls. Roll out each ball into a thin oval or circle. Cut the rolled dough in half to form two semi-circles. Take one semi-circle and fold it into a cone shape, sealing the edges with a water-flour paste. Fill the cone with a spoonful of the prepared potato filling, then seal the open end to form a triangular samosa shape. 
+            </li>
+            <li>
+                Fry or bake the samosas: Heat oil in a deep frying pan over medium heat. Once the oil is hot, carefully add the shaped samosas in batches and fry until they turn golden brown and crispy. Alternatively, you can bake the samosas in a preheated oven at 375°F (190°C) for about 25-30 minutes or until golden and crisp.
+            </li>
+            <li>
+                Serve hot: Drain the fried samosas on paper towels to remove excess oil. Serve them hot with green chutney, tamarind chutney, or yogurt dipping sauce. Enjoy these crispy, savory snacks as an appetizer or tea-time treat!
+            </li>
+        </ul>
+    </div>
+    </div>
+    <script>
+        document.getElementById('go-back').addEventListener('click',function(){
+            window.location.href = "index.html";
+        });
+    </script>
+  </body>

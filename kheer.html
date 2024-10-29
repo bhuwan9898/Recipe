@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Momos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        body{
+           font-family: fantasy;
+           font-weight: 600;
+       }
+       .directions{
+           width: 500px;
+           
+       }
+       .ingredients{
+           width:500px;
+           
+       }
+       .row{
+           display: flex;
+           padding: 20px;
+           gap:300px;
+       }
+        li {
+            padding-bottom: 10px; 
+       }
+       .name{
+           text-align: center;
+           margin: 2%;
+           padding: 10px;
+       }
+       .arrow{
+           color:green;
+       }
+       button {
+       background-color: transparent;
+       border: none;
+       padding: 0; 
+   }
+   </style>
+<div class = "arrow">
+   <button id = "go-back"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+       <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+   </svg>
+   </button>
+   
+</div>
+<div class = "name">
+   <h1 style="text-decoration: underline;">K H E E R </h1>
+   <h3>P R E P 5 M I N | C O O K 20 M I N |   Y I E L D 1</h3>
+</div>
+<div class = "row">
+   <div class = "ingredients">
+       <h1>Ingredients</h1>
+       <ul>
+        <li>1 liter Whole milk</li>
+        <li>1/2 cup Basmati rice, washed and soaked for 30 minutes</li>
+        <li>1/2 cup Sugar (adjust to taste)</li>
+        <li>1/4 cup Mixed nuts (such as almonds, cashews, and pistachios), chopped</li>
+        <li>1/4 teaspoon Cardamom powder</li>
+        <li>A pinch of Saffron strands (optional)</li>
+        <li>1 tablespoon Raisins (optional)</li>
+        <li>1 tablespoon Ghee (clarified butter)</li>
+       </ul>
+   </div>
+   <div class = "directions">
+        <h1>Directions</h1>
+        <ul>
+            <li>
+                Prepare the rice: Rinse 1/4 cup of basmati rice under cold water until the water runs clear. Soak the rice in water for about 30 minutes, then drain and set aside. 
+            </li>
+            <li>
+                Boil the milk: In a heavy-bottomed saucepan, bring 4 cups of whole milk to a gentle boil over medium heat, stirring occasionally to prevent sticking. 
+            </li>
+            <li>
+                Add the rice: Once the milk starts boiling, add the soaked and drained rice to the saucepan. Stir well to combine and reduce the heat to low.  
+            </li>
+            <li>
+                Simmer the kheer: Allow the rice and milk mixture to simmer on low heat, stirring frequently to prevent the rice from sticking to the bottom of the pan. Let it cook until the rice is soft and the mixture begins to thicken, usually for about 30-40 minutes. 
+            </li>
+            <li>
+                Sweeten the kheer: Once the rice is fully cooked and the mixture has thickened, add sugar to taste, along with crushed cardamom pods for flavor. Stir well until the sugar is completely dissolved. 
+            </li>
+            <li>
+                Add nuts and flavorings: Optionally, add chopped nuts such as almonds, cashews, and pistachios to the kheer for added texture and flavor. You can also add a pinch of saffron strands soaked in warm milk to impart a rich color and aroma to the kheer. 
+            </li>
+            <li>
+                Serve chilled or warm: Once the kheer reaches your desired consistency, remove it from the heat and let it cool slightly. You can serve the kheer warm or chilled, garnished with additional nuts and a sprinkle of ground cardamom on top for an extra touch of flavor. Enjoy this creamy, aromatic rice pudding as a delightful dessert!
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    document.getElementById('go-back').addEventListener('click',function(){
+        window.location.href = "index.html";
+    });
+</script>
+  </body>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selroti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        body{
+           font-family: fantasy;
+           font-weight: 600;
+       }
+       .directions{
+           width: 500px;
+           
+       }
+       .ingredients{
+           width:500px;
+           
+       }
+       .row{
+           display: flex;
+           padding: 20px;
+           gap:300px;
+       }
+        li {
+            padding-bottom: 10px; 
+       }
+       .name{
+           text-align: center;
+           margin: 2%;
+           padding: 10px;
+       }
+       .arrow{
+           color:green;
+       }
+       button {
+       background-color: transparent;
+       border: none;
+       padding: 0; 
+   }
+   </style>
+<div class = "arrow">
+   <button id = "go-back"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+       <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+   </svg>
+   </button>
+   
+</div>
+<div class = "name">
+   <h1 style="text-decoration: underline;">S E L R O T I</h1>
+   <h3>P R E P 30 M I N | C O O K 50 M I N |   Y I E L D 20</h3>
+</div>
+<div class = "row">
+   <div class = "ingredients">
+       <h1>Ingredients</h1>
+       <ul>
+        <li>2 cups Rice flour</li>
+        <li>1/2 cup All-purpose flour</li>
+        <li>1 cup Ripe bananas, mashed</li>
+        <li>1 cup Granulated sugar</li>
+        <li>1/2 teaspoon Baking powder</li>
+        <li>1/2 teaspoon Cardamom powder</li>
+        <li>1/4 teaspoon Nutmeg powder</li>
+        <li>1/4 teaspoon Salt</li>
+        <li>1 cup Water (approximately)</li>
+        <li>Oil for deep frying</li>
+       </ul>
+   </div>
+   <div class = "directions">
+        <h1>Directions</h1>
+        <ul>
+            <li>
+                Prepare the batter: In a large mixing bowl, combine rice flour, all-purpose flour, sugar, mashed ripe bananas, and yogurt. Gradually add water while stirring continuously to form a thick, smooth batter. The batter should be thick enough to coat the back of a spoon.  
+            </li>
+            <li>
+                Let the batter ferment: Cover the bowl with a clean cloth or plastic wrap and allow the batter to ferment overnight or for at least 6-8 hours at room temperature. Fermentation helps develop flavor and leavening agents naturally.
+            </li>
+            <li>
+                Heat oil for frying: Heat oil in a deep frying pan or kadhai over medium heat. The oil should be hot enough to fry the sel roti but not smoking hot.
+            </li>
+            <li>
+                Shape and fry the sel roti: Take a portion of the fermented batter and pour it into a piping bag or a plastic bottle with a small hole at the tip. Squeeze the batter into hot oil in a circular motion to form a ring-shaped roti. Alternatively, you can use a ladle to pour the batter into the oil and shape it manually. 
+            </li>
+            <li>
+                Fry until golden brown: Fry the sel roti until they turn golden brown and crispy on the outside, flipping them halfway through the cooking process to ensure even browning. Use a slotted spoon to remove the fried sel roti from the oil and drain excess oil on paper towels.
+            </li>
+            <li>
+                Serve warm: Serve the sel roti warm as a snack or breakfast dish. They are delicious on their own or paired with tea, yogurt, or a side of spicy pickle. Enjoy the crispy exterior and soft interior of these traditional Nepali rice flour doughnuts! 
+            </li>
+        </ul>
+    </div>
+</div>
+    <script>
+        document.getElementById('go-back').addEventListener('click',function(){
+            window.location.href = "index.html";
+        });
+    </script>
+  </body>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roganjosh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        body{
+           font-family: fantasy;
+           font-weight: 600;
+       }
+       .directions{
+           width: 500px;
+           
+       }
+       .ingredients{
+           width:500px;
+           
+       }
+       .row{
+           display: flex;
+           padding: 20px;
+           gap:300px;
+       }
+        li {
+            padding-bottom: 10px; 
+       }
+       .name{
+           text-align: center;
+           margin: 2%;
+           padding: 10px;
+       }
+       .arrow{
+           color:green;
+       }
+       button {
+       background-color: transparent;
+       border: none;
+       padding: 0; 
+   }
+   </style>
+<div class = "arrow">
+   <button id = "go-back"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+       <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+   </svg>
+   </button>
+   
+</div>
+<div class = "name">
+   <h1 style="text-decoration: underline;">R O G A N J O S H</h1>
+   <h3>P R E P 20 M I N | C O O K 40 M I N |   Y I E L D 1</h3>
+</div>
+<div class = "row">
+   <div class = "ingredients">
+       <h1>Ingredients</h1>
+       <ul>
+        <li>150g Lamb (or mutton), cubed</li>
+        <li>2 tablespoons Vegetable oil or ghee</li>
+        <li>1 large Onion, finely chopped</li>
+        <li>2 cloves Garlic, minced</li>
+        <li>1-inch piece Ginger, grated</li>
+        <li>2 Green chilies, slit lengthwise (adjust to taste)</li>
+        <li>1 teaspoon Cumin seeds</li>
+        <li>2-3 Cardamom pods</li>
+        <li>1 Cinnamon stick</li>
+        <li>4-5 Cloves</li>
+        <li>1 Bay leaf</li>
+        <li>1 teaspoon Ground coriander</li>
+        <li>1/2 teaspoon Ground turmeric</li>
+        <li>1 teaspoon Paprika</li>
+        <li>1/2 teaspoon Ground fennel seeds</li>
+        <li>1/2 teaspoon Ground ginger</li>
+        <li>1/2 teaspoon Ground Kashmiri chili powder (adjust to taste)</li>
+        <li>200ml Tomato puree</li>
+        <li>250ml Water or broth</li>
+        <li>Salt to taste</li>
+        <li>Fresh coriander leaves for garnish</li>
+       </ul>
+   </div>
+   <div class = "directions">
+    <h1>Directions</h1>
+        <ul>
+            <li>
+                Marinate the meat: Marinate tender chunks of meat (commonly lamb or goat) with yogurt, ginger-garlic paste, and a blend of aromatic spices such as Kashmiri red chili powder, turmeric, ground fennel, and ground ginger. Allow the meat to marinate for at least a few hours or preferably overnight in the refrigerator. 
+            </li>
+            <li>
+                Sear the meat: In a heavy-bottomed pan or Dutch oven, heat oil or ghee over medium-high heat. Add the marinated meat and sear it until it's browned on all sides, releasing its flavorful juices. 
+            </li>
+            <li>
+                Cook the aromatics: Add sliced onions to the pan and sauté until they turn golden brown. Then, add additional aromatics like whole spices such as cinnamon, cloves, cardamom, and bay leaves. Stir in tomato paste or crushed tomatoes and cook until the raw flavor disappears. 
+            </li>
+            <li>
+                Braise the meat: Return the seared meat to the pan and pour in enough water or broth to cover the meat. Bring the mixture to a simmer, then cover and cook over low heat until the meat becomes tender and succulent, usually for about 1-2 hours.
+            </li>
+            <li>
+                Finish with a touch of color: Once the meat is tender, add a few pinches of saffron strands soaked in warm milk to the pan. This step gives Rogan Josh its signature vibrant red color and adds a subtle floral aroma. 
+            </li>
+            <li>
+                Garnish and serve: Sprinkle freshly chopped cilantro or mint leaves over the Rogan Josh before serving. Serve hot with steamed rice or naan bread to soak up the rich, aromatic gravy. Enjoy the delightful flavors of this classic Kashmiri curry!
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    document.getElementById('go-back').addEventListener('click',function(){
+        window.location.href = "index.html";
+    });
+</script>
+  </body>
